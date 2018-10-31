@@ -2,3 +2,5 @@ virtual/
 build/
 dist/
 */.ipynb_checkpoints/
+bokeh_practice/resources/
+app6_WebcamDetector\resources\*.html

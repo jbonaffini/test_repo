@@ -70,11 +70,11 @@ while True:
 
 
 # release the camera
-print("Time elapsed:", time.time()-t,"   FPS:", a/(time.time()-t))
-[print(x) for x in times]
+#print("Time elapsed:", time.time()-t,"   FPS:", a/(time.time()-t))
+#[print(x) for x in times]
 for i in range(0,len(times),2) :
     df=df.append({"Start": times[i], "End":times[i+1]}, ignore_index=True)
-print(df)
+#print(df)
 df.to_csv(r"app6_WebcamDetector\resources\Times.csv")
 video.release()
 cv2.destroyAllWindows()
