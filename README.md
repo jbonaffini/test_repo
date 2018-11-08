@@ -6,7 +6,7 @@ This is a Test/Practice repository for learning Python
 The vast majority of the work done here is using/following Ardit Sulce's Udemy Class
 
   [The Python Mega Course: Build 10 Real World Applications](https://www.udemy.com/the-python-mega-course/learn/v4/overview)
-  
+
   Check the repo for the different apps, prefixed by "appX_<app_name>"
 
 ## Python
@@ -30,6 +30,6 @@ pip install <libarary_name>
 * [heroku](https://www.heroku.com/) (Website hosting)
 * opencv (data and image processing)
 * tkinter (native Python GUI library)
-* beautifulsoup (webscraping)
+* beautifulsoup (library name bs4) and requests (webscraping)
 * [Atom IDE](https://atom.io/)
 * Jupyter notebook
