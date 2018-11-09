@@ -3,4 +3,5 @@ build/
 dist/
 */.ipynb_checkpoints/
 bokeh_practice/resources/
-app6_WebcamDetector\resources\*.html
+app6_WebcamDetector/resources/*.html
+app8_webFinancialGraph/resources
