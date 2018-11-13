@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Geocoder App</title>
+  <head>
+    <link href="../static/css/main.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <h1> Super Geocoder </h1>
+      <h3> Please upload your CSV file. The values containing addresses should be in a column names <i>address</i> or <i>Address</i></h3>
+      <form action="{{url_for('success')}}" method="POST" enctype="multipart/form-data">
+        <!-- <button class="choose" style = "display:inline-block">Choose File</button>
+        <p class="filename" style = "display:inline-block" placeholder="No File Chosen">{{text | safe}}</p> -->
+        <input type="file" name="file">
+        <button class="submit" style = "display:inline-block">Submit</button>
+      </form>
+      {% include btn ignore missing %}
+      {% include failure ignore missing %}
+    </div>
+  </body>
+</html>
