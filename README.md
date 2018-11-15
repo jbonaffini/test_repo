@@ -9,6 +9,11 @@ The vast majority of the work done here is using/following Ardit Sulce's Udemy C
 
   Check the repo for the different apps, prefixed by "appX_<app_name>"
 
+Other work follows Jose Portilla's Udemy Class
+  [Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/python-for-data-science-and-machine-learning-bootcamp/learn/v4/overview)
+
+  All of this work is under the PythonBootcamp_DataScienceML folder. This is done in Jupyter Notebooks.  Also includes solutions.
+
 ## Python
 
 * Python 3 (currently 3.6.4)
@@ -23,7 +28,9 @@ pip install <libarary_name>
 * pandas (data science library)
 * numpy (Math and Functions for Python)
 * flask (Website builder)
-* bokeh (Python plotting tool, used instead of matplotlib)
+* matplotlib
+* bokeh (another Python plotting tool)
+* Seaborn
 * sqlite3/pyscopg2 (Local Database SQL)
 * postgreSQL (Server hosted Database, used in conjunction with PGAdmin4)
 * folium (Data visualization on maps)
